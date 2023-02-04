@@ -1,0 +1,73 @@
+#contact{
+    background-color: #0c131a;
+    padding-bottom: 4rem;
+    min-height:100vh;
+}
+#contact label{
+    color:white;
+}
+#contact h2{
+    color:white;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Form */
+
+form{
+    width: 320px;
+    margin: auto;
+    /*padding: 20px 10px;*/
+    box-sizing: border-box;
+}
+
+.form{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.sectionForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+    background-color: #1b2b39;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+textarea{
+    min-height: 50px;
+    max-height: 100px;
+    min-width: 50px;
+}
+
+form button{
+    background: #173a5d;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: solid;
+    border-radius: 5px;
+    border:none;
+}
+
+form button:hover{
+    background: #efefef;
+    color: black;
+    cursor: pointer;
+}
+
+.logoFooter{
+    filter: invert(33%) sepia(6%) saturate(20%) hue-rotate(16deg) brightness(95%) contrast(84%);
+}
